@@ -1,0 +1,46 @@
+.container {
+	background-color: white;
+
+}
+.myrow {
+	padding: 20px;
+}
+
+
+ #mybutton {
+  display: inline-block;
+  padding: 15px;
+  height: 50px;
+  min-width: 100%;
+  background: #FD7400;
+  border: none;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: 0 5px 0px #e26b05;
+  border-bottom: 2px solid #ec6f04;
+  text-align: center;
+  cursor: pointer;
+}  
+  
+#mybutton:hover{
+    background: #ff7600;
+    box-shadow: 0 4px 1px #da6908;
+    border-bottom: 2px solid #d26508;
+    transition: all 0.1s ease-in;
+}
+  
+#mybutton:active{
+    transform:translateY(4px);
+    border-bottom-width: 2px;
+} 
+
+@media (max-width: 575px) and (min-width: 300px) {
+	.container {
+		max-width: 80%;
+	}
+}
+
+
+
